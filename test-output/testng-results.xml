@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19448" started-at="2020-10-16T13:24:29Z" finished-at="2020-10-16T13:24:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19448" started-at="2020-10-16T13:24:29Z" finished-at="2020-10-16T13:24:48Z">
+      <class name="com.lambdatest.Tests.SingleExecution">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lambdatest.Tests.SingleExecution@4667ae56]" name="setUp" is-config="true" duration-ms="10023" started-at="2020-10-16T18:54:29Z" finished-at="2020-10-16T18:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:com.lambdatest.Tests.SingleExecution@4667ae56]" name="testSimple" duration-ms="7425" started-at="2020-10-16T18:54:39Z" finished-at="2020-10-16T18:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.SingleExecution@4667ae56]" name="tearDown" is-config="true" duration-ms="1981" started-at="2020-10-16T18:54:46Z" finished-at="2020-10-16T18:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.Tests.SingleExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
