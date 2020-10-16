@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+  <test name="Test1">
+   <parameter name="browser" value="Chrome"/>
+      <parameter name="version" value="85.0"/>
+   <parameter name="platform" value="macOS Catalina"/>
+    <classes>
+      <class name="com.lambdatest.Tests.ParallelExecution"/>
+    </classes>
+  </test> 
+  
+   <test name="Test2">
+  <parameter name="browser" value="Firefox"/>
+      <parameter name="version" value="73.0"/>
+   <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="com.lambdatest.Tests.ParallelExecution"/>
+    </classes>
+    </test> 
+    
+ <test name="Test3">
+ <parameter name="browser" value="Safari"/>
+      <parameter name="version" value="13.0"/>
+   <parameter name="platform" value="macOS Catalina"/>
+    <classes>
+      <class name="com.lambdatest.Tests.ParallelExecution"/>
+    </classes>
+    </test> 
+    
+</suite>
