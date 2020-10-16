@@ -26,7 +26,10 @@ To run single test
     $ mvn clean -Dtest=SingleExecution test
 
 To run parallel test
-    $ mvn clean test -Dsurefire.suiteXmlFile=testng.xml
+    $ mvn clean test
+    
+To run local test
+    $ mvn clean -Dtest=LocalSiteExecution test
     
 ```
 ## About LambdaTest
